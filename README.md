@@ -23,8 +23,32 @@ Este projeto é uma **versão melhorada de um projeto anterior de sistema bancá
 
 ## Demonstração do sistema
 
-Abaixo está um exemplo do sistema funcionando no terminal:
+================================================
+                SISTEMA BANCÁRIO
+================================================
 
+1 - Criar Conta Corrente
+2 - Criar Conta Poupança
+3 - Depositar
+4 - Sacar
+5 - Consultar Saldo
+6 - Mostrar todas as contas
+7 - Transferir
+8 - Extrato
+9 - Aplicar Juros (Poupança)
+0 - Sair
+------------------------------------------------
+Escolha uma opção: 1
+
+----------- CRIAÇÃO DE CONTA -----------
+
+Nome do titular: João
+Idade: 30
+CPF: 123456
+
+Conta criada com sucesso!
+
+================================================
 
 
 ---
@@ -74,7 +98,7 @@ Nesta nova versão foram adicionadas melhorias como:
 * melhoria na interface do menu
 
 Versão anterior do projeto:
-https://github.com/AdersonC/sistema-conta-bancaria-java
+[https://github.com/SEU-USUARIO/SistemaBancario](https://github.com/AdersonC/sistema-conta-bancaria-java)
 
 ---
 
@@ -90,3 +114,4 @@ O objetivo deste projeto é **praticar conceitos fundamentais de Java e programa
 * Persistência de dados
 * Integração com banco de dados
 * Criação de uma API para operações bancárias
+
