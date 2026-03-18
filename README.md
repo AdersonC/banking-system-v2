@@ -1,30 +1,31 @@
-# SistemaBancarioV2
+# 💰 Banking System V2
 
-Sistema bancário desenvolvido em **Java** para simular operações básicas de um banco utilizando **programação orientada a objetos (POO)**.
+A banking system developed in **Java** to simulate core banking operations using **Object-Oriented Programming (OOP)** principles.
 
-Este projeto é uma **versão melhorada de um projeto anterior de sistema bancário**, onde novas funcionalidades foram adicionadas e o código foi reorganizado para ficar mais claro, modular e próximo de um sistema real.
-
----
-
-## Funcionalidades
-
-* Criação de **Conta Corrente**
-* Criação de **Conta Poupança**
-* Depósito em conta
-* Saque com verificação de saldo
-* Transferência entre contas
-* Consulta de saldo
-* Visualização de **extrato de operações**
-* Aplicação de **juros em conta poupança**
-* Listagem de todas as contas cadastradas
-* Menu interativo no terminal
+This project is an **enhanced version of a previous banking system**, with new features and improved code organization, making it more modular, readable, and closer to a real-world application.
 
 ---
 
-## Demonstração do sistema
+## 🚀 Features
 
+* Create **Checking Accounts**
+* Create **Savings Accounts**
+* Deposit funds
+* Withdraw funds with balance validation
+* Transfer between accounts
+* Check account balance
+* View **transaction history (statement)**
+* Apply **interest to savings accounts**
+* List all registered accounts
+* Interactive terminal menu
+
+---
+
+## 🖥️ System Demo
+
+```text
 ================================================
-                SISTEMA BANCÁRIO
+                BANKING SYSTEM
 ================================================
 
 1 - Criar Conta Corrente
@@ -40,7 +41,7 @@ Este projeto é uma **versão melhorada de um projeto anterior de sistema bancá
 ------------------------------------------------
 Escolha uma opção: 1
 
------------ CRIAÇÃO DE CONTA -----------
+----------- ACCOUNT CREATION -----------
 
 Nome do titular: João
 Idade: 30
@@ -49,14 +50,14 @@ CPF: 123456
 Conta criada com sucesso!
 
 ================================================
-
+```
 
 ---
 
-## Estrutura do projeto
+## 📁 Project Structure
 
+```text
 src/
-
 ├── Banco.java
 ├── Menu.java
 ├── Conta.java
@@ -64,54 +65,60 @@ src/
 ├── ContaCorrente.java
 ├── ContaPoupanca.java
 └── Main.java
+```
 
 ---
 
-## Como executar o projeto
+## ▶️ How to Run
 
-1. Clone o repositório
+1. Clone the repository
 
+```bash
 git clone https://github.com/AdersonC/SistemaBancarioV2.git
+```
 
-2. Abra o projeto em uma IDE Java
-   (IntelliJ, Eclipse ou VS Code)
+2. Open the project in a Java IDE
+   (IntelliJ, Eclipse, or VS Code)
 
-3. Execute a classe principal
+3. Run the main class
 
+```bash
 Main.java
+```
 
-4. Utilize o menu no terminal para realizar as operações do sistema.
+4. Use the terminal menu to interact with the system
 
 ---
 
-## Evolução do projeto
+## 📈 Project Evolution
 
-Este projeto é uma **evolução de uma versão anterior do sistema bancário**, criada inicialmente para praticar conceitos básicos de Java.
+This project is an **improved version of a previous banking system**, originally created to practice basic Java concepts.
 
-Nesta nova versão foram adicionadas melhorias como:
+In this version, the following improvements were implemented:
 
-* organização melhor das classes
-* novas operações bancárias
-* extrato de operações
-* transferência entre contas
-* aplicação de juros na poupança
-* melhoria na interface do menu
+* Better class organization
+* New banking operations
+* Transaction history (statement)
+* Account transfers
+* Interest calculation for savings accounts
+* Improved menu interface
 
-Versão anterior do projeto:
+🔗 Previous version:
 https://github.com/AdersonC/sistema-conta-bancaria-java
 
 ---
 
-## Objetivo do projeto
+## 🎯 Purpose
 
-O objetivo deste projeto é **praticar conceitos fundamentais de Java e programação orientada a objetos**, simulando o funcionamento de um sistema bancário simples.
+The goal of this project is to **practice core Java and Object-Oriented Programming concepts** by simulating a simple banking system.
 
 ---
 
-## Melhorias futuras
+## 🔮 Future Improvements
 
-* Interface gráfica
-* Persistência de dados
-* Integração com banco de dados
-* Criação de uma API para operações bancárias
+* Graphical User Interface (GUI)
+* Data persistence
+* Database integration
+* Development of a REST API for banking operations
 
+---
